@@ -1,0 +1,94 @@
+/* Theme Name: MyTheme ;)
+    PrimaryColor #0F112B
+    SecondaryColor #25245F
+    AccedentColor #AA54A0   
+    FontFamily 'Arial'
+    <PrimaryColor>
+        <element id="0F112B">
+    <SecondaryColor>
+        <element id="25245F">
+    <AccedentColor>
+        <element id="AA54A0">
+    <FontFamily>
+        <element id="'Arial'">*/
+/* Theme Name: MyTheme ;) */
+/* Theme URI: http://www.example.com */
+/* Description: MyTheme is a simple and clean theme with a responsive design. It is highly customizable and includes a custom header, background, and menu. */
+
+@media (max-width: 1200px) {
+    .card {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .qoral {
+        row-gap: 20px;
+        column-gap: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .qoral {
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    .txt {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        width: 100%;
+    }
+
+    .custom-col {
+        text-align: center;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .txt {
+        padding: 30px;
+    }
+
+    .sec4 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .swr,
+    .qor {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 5px 10px;
+    }
+
+    .card img {
+        height: 150px;
+    }
+
+    .txt {
+        padding: 20px;
+    }
+
+    .sec4 {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QALIN CODES</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <style>
+    body {
+      background-color: #0F112b;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .hh {
+      font-size: 60px;
+      color: #AA54A0;
+      font-weight: bold;
+    }
+
+    .btn {
+      background-color: #AA54A0;
+      color: white;
+      border-radius: 30px;
+      padding: 10px 20px;
+      width: 100%;
+    }
+
+    .btn:hover {
+      background-color: #823b7a;
+    }
+
+    .card {
+      background-color: #25245f;
+      color: white;
+      border-radius: 20px;
+    }
+
+    .card img {
+      height: 220px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      object-fit: cover;
+    }
+
+    .txt {
+      background-color: #1A1D3D;
+      padding: 60px;
+      text-align: center;
+    }
+
+    .carosel {
+      background-color: #1A1D3D;
+      padding: 40px;
+      border-radius: 20px;
+    }
+
+    footer {
+      background-color: #000;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .hh {
+        font-size: 40px;
+        text-align: center;
+      }
+
+      .txt {
+        padding: 30px;
+      }
+
+      .card {
+        margin-bottom: 20px;
+      }
+
+      .navbar-toggler {
+        border-color: white;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img class="w-50" src="./images/logo.png" alt="QALIN logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link text-white" href="#">Courses</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Roadmaps</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Forum</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <a class="btn d-none d-md-block w-25" href="#">Member Area</a>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h2 class="hh">Grow <span class="text-white-50 fw-light">Your</span> Skills</h2>
+        <p>Unlock your potential with personalized mentorship and hands-on learning.</p>
+        <div class="d-flex flex-column flex-md-row gap-3">
+          <a class="btn" href="#">All Courses</a>
+          <a class="btn btn-outline-light" href="#">Learn More</a>
+        </div>
+      </div>
+      <div class="col-md-6 text-center">
+        <img class="w-75 img-fluid" src="./images/boxx-01.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="txt my-5">
+    <h2 class="fw-bold">Our Courses</h2>
+    <p>Choose from a variety of courses and learn from the best instructors.</p>
+  </div>
+
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card">
+          <img src="./images/coding.jpg" class="card-img-top" alt="Web Development">
+          <div class="card-body text-center">
+            <h5 class="card-title">Web Development</h5>
+            <a href="#" class="btn">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card">
+          <img src="./images/network.jpg" class="card-img-top" alt="Data Science">
+          <div class="card-body text-center">
+            <h5 class="card-title">Data Science</h5>
+            <a href="#" class="btn">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card">
+          <img src="./images/tech.jpg" class="card-img-top" alt="Mobile Development">
+          <div class="card-body text-center">
+            <h5 class="card-title">Mobile Development</h5>
+            <a href="#" class="btn">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card">
+          <img src="./images/circles.jpg" class="card-img-top" alt="UI/UX Design">
+          <div class="card-body text-center">
+            <h5 class="card-title">UI/UX Design</h5>
+            <a href="#" class="btn">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center text-white mt-5">
+    <div class="container">
+      <p>&copy; 2025 QALIN CODES. All rights reserved.</p>
+      <div class="d-flex justify-content-center gap-3">
+        <a href="#" class="text-white"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
